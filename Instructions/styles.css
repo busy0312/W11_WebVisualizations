@@ -1,0 +1,276 @@
+body{
+    background-color: #d5d9dd;
+}
+
+
+.navbar-brand {
+    position: absolute; 
+    cursor: pointer;
+    margin-left: 90px; 
+    background-color:#28adaa;
+    height: 100%;  
+    width: 10%;     
+}
+
+.pick{ border: 2px blue dashed;
+     border-radius: 10px; 
+     padding: 4px; }
+
+
+
+.box {
+    position: absolute;
+    background:white;
+    border: 2px ;
+  }
+  
+
+ 
+.box-1 {
+    width: 800px;
+    height: 490px;
+    margin-top: 50px;
+    left: 7%;
+    
+  }
+.box-plot {
+    width: 800px;
+    height: auto;
+    margin-top: 50px;
+    left: 7%;
+    
+  }
+
+.comparisonbox{
+    margin-left: 100px;
+    margin-bottom: 40px;
+    height:450px;
+    width: 450px;
+}
+
+.box-2 {
+    margin-top: 50px;
+    width: 450px;
+    height: 550px;
+    right:4%;
+  }
+
+
+  
+.box-3{   
+    width: 90%;
+    height: auto;
+    margin-top: 50px;
+    left: 5%;
+}
+
+.box-4{
+    margin-top: 50px;
+    width: 1100px;
+    height: auto;
+    margin-left: 10%;
+    margin-right: 10%;   
+}
+
+.box-5 {
+    margin-top: 50px;
+    width: 800px;
+    height:auto;
+    margin-left: 6%;
+  }
+
+p{
+    font-family:Optima;
+}
+
+h2{
+    font-family:Optima;
+    font-weight: bold;
+    font-size: 40px;
+    margin-left: 25px;
+    margin-top: 45px;
+    color:#28adaa ;
+   
+}
+
+h3{
+    font-family:Optima;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+h4{
+    font-family:Optima;
+    text-align: center;
+    margin-left: 50px;
+    color:#28adaa;
+}
+
+h5{
+    display: inline;
+    font-family:Optima;
+    text-align: center;     
+    background-color:#28adaa;
+    color: white;
+    padding: 5px;
+    margin: auto;  
+}
+
+.table{
+    width: 95%;
+    margin-left: 3%;
+    
+}
+#main,
+#max_imagine {
+  float: left;
+  margin-top: 20px;
+}
+
+#figure {
+  position: relative;
+}
+
+#font_fam{
+    font-size: 20px;
+    color: grey;
+}
+
+
+#main{
+  margin-left: 25px;
+  margin-right: 5px;
+}
+
+
+#max_imagine {
+    width: 250px;
+    height: 250px;
+  margin-right: 20px;
+}
+
+#plot_imagine {
+    width: 500px;
+    height: 500px;
+    margin-left: 16%;
+  }
+
+
+
+hr { 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: 0.5em;
+    border-style: inset;
+    border-width: 1px;
+  } 
+
+footer {
+    position: fixed; 
+    height: 25px; 
+    bottom:0;
+    width: 100%;  
+    background-color:grey;
+    color: white;
+    text-align: center;
+  }
+
+  
+
+.size1{
+  width: 200px;
+  height: 200px;
+}
+
+
+.size_visual{
+    position: relative;
+    margin-left: 100px;
+    margin-bottom: 40px;
+    width:400px;
+    height: 450x;
+}
+
+
+
+
+
+@media (max-width: 1410px){
+    .box-plot {
+        width: 900px;
+        height: 750px;
+        margin-top: 50px;
+        margin: auto; 
+      }
+
+      .box {
+        position: static;
+         background:white;
+         border: 2px ;
+       }
+
+       #plot_imagine {
+        width: 500px;
+        height: 500px;
+        margin-left: 16%;
+      }
+
+    .box {
+        position: static;
+         background:white;
+         border: 2px ;
+       }
+    .box-1 {
+        width: 900px;
+        height: 500px;
+        margin-top: 50px;
+        margin: auto; 
+      }
+      
+    .box-2 {
+        width: 900px;
+        height: 350px;
+        margin-top: 50px;
+        margin: auto;
+      }
+   
+    h2{
+        padding-top: 40px;
+        margin-left: 25px;
+        margin-top: 45px;
+        color:#28adaa ;
+       
+    }
+
+    footer {
+        position: sticky;
+        bottom: 0;
+        width: 100%;
+        height: 2 rem; 
+        background-color:grey;
+        color: white;
+        text-align: center;
+      }
+    
+}
+
+
+
+
+@media (max-width: 1253px){
+    .box-3{
+        position: static;
+        width: 70%;
+        height:100%;
+        margin: auto;
+        left: 5%;
+    
+    }
+    h4{
+    
+        margin: auto;
+    }
+}
+
