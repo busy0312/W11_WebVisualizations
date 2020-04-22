@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cloudiness</title>
+    <title>comparison</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latitude Analysis Dashboard with Attitude</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
@@ -19,20 +21,20 @@
     <link rel="stylesheet" type="text/css" href="styles.css">
     <link rel="stylesheet" type="text/css" href="reset.css">
 </head>
-
 <body>
     
 
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light ">
             
             <nav class="navbar navbar-light bg-light">
                 <span class="navbar-text">
-                    <a href="index.html"><h5>Latitude</h5></a> 
+                    <a href="index.html"><h5>Latitude</h5></a>
+                 
                 </span>
               </nav>
 
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
-                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                aria-controls="navbarNavDropdown" aria-expanded="False" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
@@ -57,64 +59,55 @@
                     </li>
                 </ul>
             </div>
-        </nav>
-    <div class="container-{breakpoint}">
-    
+    </nav>
+    <div class="container-fluid">
+
     <div class="box-set">
-        <figure class="box box-plot">
-            <h2>Cloudiness
+    <figure class="box box-3" >
+            <h2>Comparison:Latitude vs X
                 <hr>
             </h2>
-            <section id="main">
-                <section id="figure">
-                    <img id="plot_imagine" src="Resources/assets/images/Fig3.png" alt="cloudiness">
-                </section>
-                <p id="font_fam">As expected, the weather becomes signigicantly warmer as one approaches the equator
-                    (0 Deg. Latitude). More interestingly,however, is the fact that the southern hemisphere tends to be
-                    warmer this
-                    time of year than the northern hemisphere.
-                </p>
-            </section>
-        </figure>
-        <figure class="box box-2">
-            <h2>Visualization
-                <hr>
-            </h2>
-            <div class="row">
-
-                <div class="col">
+            <br>
+            <h3>Click any plot to get an in-depth analysis. </h3><br>
+            <div class="row" >
+                <div class="col" >
+                    <figcaption class="figure-caption"><h4>vs. Max Temperature</h4></figcaption>
                     <a href="maxtemp.html">
-                        <img class="size1" src="Resources/assets/images/Fig1.png" alt="Maxtemp">
+                        <img class='comparisonbox' id="line" src="Instructions/Resources/assets/images/Fig1.png" alt="Maxtemp">
                     </a>
                 </div>
-
-                <div class="col">
+                
+                <div class="col" >
+                    <figcaption class="figure-caption" ><h4>vs. Humudidity</h4></figcaption>
                     <a href="humidity.html">
-                        <img class='size1' src="Resources/assets/images/Fig2.png" alt="Hum">
+                        <img class='comparisonbox' id="line" src="Instructions/Resources/assets/images/Fig2.png" alt="Hum">
                     </a>
                 </div>
 
-                <div class="col">
+                <div class="col" >
+                    <figcaption class="figure-caption"><h4>vs. Cloudiness</h4></figcaption>
+                    
                     <a href="cloudiness.html">
-                        <img class='size1 pick' src="Resources/assets/images/Fig3.png" alt="cloudiness">
+                        <img class='comparisonbox' id="line" src="Instructions/Resources/assets/images/Fig3.png" alt="cloudiness">
                     </a>
                 </div>
-
-                <div class="col">
+                
+                <div class="col" >
+                    <figcaption class="figure-caption"><h4>vs. Wind Speed</h4></figcaption>
+                   
                     <a href="wind speed.html">
-                        <img class='size1' src="Resources/assets/images/Fig4.png" alt="windspeed">
+                        <img class='comparisonbox' src="Instructions/Resources/assets/images/Fig4.png" alt="windspeed">
                     </a>
                 </div>
 
-        </figure>
+    </figure>
     </div>
     </div>
+    
+
     <div>
         <footer>©Copyright Coding Bootcamp 2020</footer>
-    </div>
-
-
+    </div> 
 
 </body>
-
 </html>

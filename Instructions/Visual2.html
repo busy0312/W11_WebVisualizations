@@ -22,13 +22,14 @@
     <link rel="stylesheet" type="text/css" href="reset.css">
 </head>
 <body>
-    <div class="container-{breakpoint}">
+    
 
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-
+    <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+            
             <nav class="navbar navbar-light bg-light">
                 <span class="navbar-text">
-                 <h5>Latitude</h5>
+                    <a href="index.html"><h5>Latitude</h5></a>
+                 
                 </span>
               </nav>
 
@@ -58,41 +59,40 @@
                     </li>
                 </ul>
             </div>
-        </nav>
-    </div>
+    </nav>
+    <div class="container-fluid">
 
-        <figure class="box box-3">
+    <div class="box-set">
+    <figure class="box box-3" >
             <h2>Comparison:Latitude vs X
                 <hr>
             </h2>
             <br>
             <h3>Click any plot to get an in-depth analysis. </h3><br>
-            <div class="row">
-                <div class="col">
+            <div class="row" >
+                <div class="col" >
                     <figcaption class="figure-caption"><h4>vs. Max Temperature</h4></figcaption>
                     <a href="maxtemp.html">
-                        <img class='comparisonbox' src="Resources/assets/images/Fig1.png" alt="Maxtemp">
+                        <img class='comparisonbox' id="line" src="Resources/assets/images/Fig1.png" alt="Maxtemp">
                     </a>
                 </div>
-
-                <div class="col">
-                    <figcaption class="figure-caption"><h4>vs. Humudidity</h4></figcaption>
-                    <a href="humidity.html">
-                        <img class='comparisonbox' src="Resources/assets/images/Fig2.png" alt="Hum">
-                    </a>
-                </div>
-
                 
+                <div class="col" >
+                    <figcaption class="figure-caption" ><h4>vs. Humudidity</h4></figcaption>
+                    <a href="humidity.html">
+                        <img class='comparisonbox' id="line" src="Resources/assets/images/Fig2.png" alt="Hum">
+                    </a>
+                </div>
 
-                <div class="col">
+                <div class="col" >
                     <figcaption class="figure-caption"><h4>vs. Cloudiness</h4></figcaption>
                     
                     <a href="cloudiness.html">
-                        <img class='comparisonbox' src="Resources/assets/images/Fig3.png" alt="cloudiness">
+                        <img class='comparisonbox' id="line" src="Resources/assets/images/Fig3.png" alt="cloudiness">
                     </a>
                 </div>
-
-                <div class="col">
+                
+                <div class="col" >
                     <figcaption class="figure-caption"><h4>vs. Wind Speed</h4></figcaption>
                    
                     <a href="wind speed.html">
@@ -100,12 +100,14 @@
                     </a>
                 </div>
 
-        </figure>
+    </figure>
+    </div>
     </div>
     
 
     <div>
         <footer>©Copyright Coding Bootcamp 2020</footer>
-    </div>  
+    </div> 
+
 </body>
 </html>
