@@ -21,93 +21,96 @@
 </head>
 
 <body>
-    
 
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            
-            <nav class="navbar navbar-light bg-light">
-                <span class="navbar-text">
-                    <a href="index.html"><h5>Latitude</h5></a>
-                 
-                </span>
-              </nav>
 
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
-                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Plots
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="maxtemp.html">Max Temperature</a>
-                            <a class="dropdown-item" href="humidity.html">Humidity</a>
-                            <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
-                            <a class="dropdown-item" href="wind speed.html">Wind Speed</a>
-                        </div>
-                    </li>
-                    <a class="nav-link" href="visual2.html">Comparison <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="data.html">Data</a>
-                    </li>
-                </ul>
-            </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+        <nav class="navbar navbar-light bg-light">
+            <span class="navbar-text">
+                <a href="index.html">
+                    <h5>Latitude</h5>
+                </a>
+
+            </span>
         </nav>
-        <div class="container-{breakpoint}">
-    <div class="box-set">
-        <figure class="box box-plot">
-            <h2>Wind Speed
-                <hr>
-            </h2>
-            <section id="main">
-                <section id="figure">
-                    <img id="plot_imagine" src="Instructions/Resources/assets/images/Fig4.png" alt="Windspeed">
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Plots
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="maxtemp.html">Max Temperature</a>
+                        <a class="dropdown-item" href="humidity.html">Humidity</a>
+                        <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+                        <a class="dropdown-item" href="wind speed.html">Wind Speed</a>
+                    </div>
+                </li>
+                <a class="nav-link" href="visual2.html">Comparison <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="data.html">Data</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container-{breakpoint}">
+        <div class="box-set">
+            <figure class="box box-plot">
+                <h2>Wind Speed
+                    <hr>
+                </h2>
+                <section id="main">
+                    <section id="figure">
+                        <img id="plot_imagine" src="Instructions/Resources/assets/images/Fig4.png" alt="Windspeed">
+                    </section>
+                    <p id="font_fam">As expected, the weather becomes signigicantly warmer as one approaches the equator
+                        (0 Deg. Latitude). More interestingly,however, is the fact that the southern hemisphere tends to
+                        be
+                        warmer this
+                        time of year than the northern hemisphere.
+                    </p>
                 </section>
-                <p id="font_fam">As expected, the weather becomes signigicantly warmer as one approaches the equator
-                    (0 Deg. Latitude). More interestingly,however, is the fact that the southern hemisphere tends to be
-                    warmer this
-                    time of year than the northern hemisphere.
-                </p>
-            </section>
-        </figure>
-        <figure class="box box-2">
-            <h2>Visualization
-                <hr>
-            </h2>
-            <div class="row">
+            </figure>
+            <figure class="box box-2">
+                <h2>Visualization
+                    <hr>
+                </h2>
+                <div class="row">
 
-                <div class="col">
-                    <a href="maxtemp.html">
-                        <img class="size1" src="Instructions/Resources/assets/images/Fig1.png" alt="Maxtemp">
-                    </a>
-                </div>
+                    <div class="col">
+                        <a href="maxtemp.html">
+                            <img class="size1" src="Instructions/Resources/assets/images/Fig1.png" alt="Maxtemp">
+                        </a>
+                    </div>
 
-                <div class="col">
-                    <a href="humidity.html">
-                        <img class='size1' src="Instructions/Resources/assets/images/Fig2.png" alt="Hum">
-                    </a>
-                </div>
+                    <div class="col">
+                        <a href="humidity.html">
+                            <img class='size1' src="Instructions/Resources/assets/images/Fig2.png" alt="Hum">
+                        </a>
+                    </div>
 
-                <div class="col">
-                    <a href="cloudiness.html">
-                        <img class='size1' src="Instructions/Resources/assets/images/Fig3.png" alt="cloudiness">
-                    </a>
-                </div>
+                    <div class="col">
+                        <a href="cloudiness.html">
+                            <img class='size1' src="Instructions/Resources/assets/images/Fig3.png" alt="cloudiness">
+                        </a>
+                    </div>
 
-                <div class="col">
-                    <a href="wind speed.html">
-                        <img class='size1 pick' src="Instructions/Resources/assets/images/Fig4.png" alt="windspeed">
-                    </a>
-                </div>
+                    <div class="col">
+                        <a href="wind speed.html">
+                            <img class='size1 pick' src="Instructions/Resources/assets/images/Fig4.png" alt="windspeed">
+                        </a>
+                    </div>
 
-        </figure>
-    </div>
+            </figure>
+        </div>
     </div>
     <div>
         <footer>©Copyright Coding Bootcamp 2020</footer>
